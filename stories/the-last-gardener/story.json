@@ -51,6 +51,10 @@
     {
       "id": "tag-love-across-lifetimes",
       "name": "Love across forms of life"
+    },
+    {
+      "id": "tag-3059c477-88cb-4f86-8272-a9665a05eff1",
+      "name": "giới thiệu nhân vật"
     }
   ],
   "genres": [
@@ -150,6 +154,26 @@
               "language": "en",
               "path": "stories/the-last-gardener/books/volume-1/chapters/enemy-of-the-flora/en.md",
               "status": "review"
+            }
+          ]
+        },
+        {
+          "chapterId": "chapter-070a60d2-b022-4042-a004-1399dda20c83",
+          "number": 3,
+          "title": "Chương 3: Trang sách mới",
+          "types": [
+            "giới thiệu nhân vật"
+          ],
+          "characterIds": [
+            "benny",
+            "hope"
+          ],
+          "milestoneIds": [],
+          "editions": [
+            {
+              "language": "vi",
+              "path": "stories/the-last-gardener/books/volume-1/chapters/chapter-070a60d2-b022-4042-a004-1399dda20c83/vi.md",
+              "status": "draft"
             }
           ]
         }

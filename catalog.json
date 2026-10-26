@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "stories": [
+    {
+      "storyId": "the-last-gardener",
+      "path": "stories/the-last-gardener/story.json"
+    }
+  ]
+}

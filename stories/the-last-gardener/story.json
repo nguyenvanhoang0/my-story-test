@@ -1,0 +1,282 @@
+{
+  "schemaVersion": 1,
+  "storyId": "the-last-gardener",
+  "title": "The Last Gardener",
+  "overview": "Benny, Employee 404, is pulled into a dying primeval world as a vine. An impending meteor strike and a wayward mission item begin a journey of unexpected bonds across multiple worlds.",
+  "defaultLanguage": "vi",
+  "languages": [
+    "vi",
+    "en"
+  ],
+  "tagIds": [
+    "tag-non-human-mc",
+    "tag-survival",
+    "tag-biological-fantasy",
+    "tag-weird-ecosystem",
+    "tag-primitive-mythology",
+    "tag-evolution",
+    "tag-love-across-lifetimes"
+  ],
+  "genreIds": [
+    "genre-fantasy",
+    "genre-progression",
+    "genre-dark-comedy",
+    "genre-science-fiction"
+  ],
+  "tags": [
+    {
+      "id": "tag-non-human-mc",
+      "name": "Non-human MC"
+    },
+    {
+      "id": "tag-survival",
+      "name": "Survival"
+    },
+    {
+      "id": "tag-biological-fantasy",
+      "name": "Biological fantasy"
+    },
+    {
+      "id": "tag-weird-ecosystem",
+      "name": "Weird ecosystem horror"
+    },
+    {
+      "id": "tag-primitive-mythology",
+      "name": "Primitive mythology"
+    },
+    {
+      "id": "tag-evolution",
+      "name": "Progressive Evolution"
+    },
+    {
+      "id": "tag-love-across-lifetimes",
+      "name": "Love across forms of life"
+    }
+  ],
+  "genres": [
+    {
+      "id": "genre-fantasy",
+      "name": "Fantasy"
+    },
+    {
+      "id": "genre-progression",
+      "name": "Progression Fantasy"
+    },
+    {
+      "id": "genre-dark-comedy",
+      "name": "Dark Comedy"
+    },
+    {
+      "id": "genre-science-fiction",
+      "name": "Science Fiction"
+    }
+  ],
+  "books": [
+    {
+      "bookId": "volume-1",
+      "title": "Volume 1: Sowing Seeds (Gieo mầm)",
+      "order": 1,
+      "overview": "**One new mission. One new body. One new disaster.**\nThe World Tree has grown old. The branches are becoming diseased and collapsing. There is no longer enough manpower to repair them.\nFollowing a rushed wave of recruitment and training, Benny is ready for his item-intervention and remote monitoring assignment. The exact moment his butt hits the office chair, the very item he just deployed drags him down into that world right along with it.\nIn the form of a vine.\nMore accurately, a strand of vine growing upon the antlers of a white deer.\nEquipped with only a few observational abilities, an overtime-addicted System assistant, and a \"deity\" who seems to care only about sweets and forest streams, Benny must find a way to stop an impending meteor strike.\nAnd it doesn't stop there.\nReclaiming that wayward item turns out to be even harder than dealing with a falling meteor, pulling him into a bizarre journey of unexpected bonds across multiple worlds.\nUntil, eventually, Benny realizes he might not want to hand it back to the organization at all.\n**Things you can expect:**\nProgressive Evolution Fantasy.\nDark comedy.\nNon-human MC.\nSurvival + biological fantasy.\nWeird ecosystem horror.\nScience fiction hidden beneath primitive mythology.\nA story of two souls learning to love each other through countless forms of life.",
+      "tagIds": [
+        "tag-non-human-mc",
+        "tag-survival",
+        "tag-biological-fantasy",
+        "tag-weird-ecosystem",
+        "tag-primitive-mythology",
+        "tag-evolution",
+        "tag-love-across-lifetimes"
+      ],
+      "genreIds": [
+        "genre-fantasy",
+        "genre-progression",
+        "genre-dark-comedy",
+        "genre-science-fiction"
+      ],
+      "chapters": [
+        {
+          "chapterId": "the-primeval-world",
+          "number": 1,
+          "title": "The Primeval World (Nguyên giới)",
+          "types": [
+            "giới thiệu nhân vật",
+            "xây dựng thế giới"
+          ],
+          "characterIds": [
+            "benny",
+            "hope",
+            "assistant"
+          ],
+          "milestoneIds": [
+            "awakening-primeval-world",
+            "meteor-mission"
+          ],
+          "editions": [
+            {
+              "language": "vi",
+              "path": "stories/the-last-gardener/books/volume-1/chapters/the-primeval-world/vi.md",
+              "status": "final"
+            },
+            {
+              "language": "en",
+              "path": "stories/the-last-gardener/books/volume-1/chapters/the-primeval-world/en.md",
+              "status": "review"
+            }
+          ]
+        },
+        {
+          "chapterId": "enemy-of-the-flora",
+          "number": 2,
+          "title": "Enemy of the Flora (Kẻ thù của thực vật)",
+          "types": [
+            "sinh tồn",
+            "phát triển năng lực"
+          ],
+          "characterIds": [
+            "benny",
+            "hope",
+            "assistant"
+          ],
+          "milestoneIds": [
+            "first-directed-growth",
+            "grasshopper-attack"
+          ],
+          "editions": [
+            {
+              "language": "vi",
+              "path": "stories/the-last-gardener/books/volume-1/chapters/enemy-of-the-flora/vi.md",
+              "status": "final"
+            },
+            {
+              "language": "en",
+              "path": "stories/the-last-gardener/books/volume-1/chapters/enemy-of-the-flora/en.md",
+              "status": "review"
+            }
+          ]
+        }
+      ],
+      "cover": {
+        "repository": "covers",
+        "path": "assets/image-e442be7e-f03f-4014-89a4-6c6952618b10/image.png",
+        "commitSha": "ca03eccf5f9b44946765ec96aeb42d96e920f3c1"
+      }
+    }
+  ],
+  "characters": [
+    {
+      "characterId": "benny",
+      "name": "Benny",
+      "aliases": [
+        "Employee 404",
+        "Nhân viên 404"
+      ],
+      "description": "Nhân viên của Tổ chức, tỉnh lại sau 212 ngày trong cơ thể dây leo ở Nguyên giới 0.6.2.8.A."
+    },
+    {
+      "characterId": "hope",
+      "name": "Hope",
+      "aliases": [],
+      "description": "Giám sát viên kiêm hỗ trợ Benny; xuất hiện qua hình chiếu."
+    },
+    {
+      "characterId": "assistant",
+      "name": "Assistant",
+      "aliases": [
+        "Trợ Lý Ảo",
+        "Virtual Assistant"
+      ],
+      "description": "Hệ thống hỗ trợ cung cấp trạng thái cơ thể, nhiệm vụ và dữ liệu sinh học."
+    }
+  ],
+  "milestones": [
+    {
+      "milestoneId": "awakening-primeval-world",
+      "title": "Benny tỉnh lại ở Nguyên giới",
+      "description": "Sau 212 ngày bất tỉnh, Benny thức dậy trong cơ thể dây leo ở thế giới 0.6.2.8.A."
+    },
+    {
+      "milestoneId": "meteor-mission",
+      "title": "Nhiệm vụ và đếm ngược thiên thạch",
+      "description": "Khôi phục vận khí, thu hồi vật phẩm; dự báo thiên thạch va chạm sau 33 ngày 23 giờ."
+    },
+    {
+      "milestoneId": "first-directed-growth",
+      "title": "Benny chủ động điều hướng sinh trưởng",
+      "description": "Benny học cách điều hướng tua cuốn mọc dài sau khi để bản năng thực vật vận hành trở lại."
+    },
+    {
+      "milestoneId": "grasshopper-attack",
+      "title": "Thiên địch đầu tiên",
+      "description": "Một con cào cào thảo nguyên có dấu hiệu nhiễm Hỗn Loạn tấn công Benny; Hope tìm phương án cứu cậu."
+    }
+  ],
+  "terms": [
+    {
+      "termId": "primeval-world",
+      "vi": "Nguyên giới",
+      "en": "Primeval World"
+    },
+    {
+      "termId": "providence",
+      "vi": "Vận khí",
+      "en": "Providence"
+    },
+    {
+      "termId": "sync-rate",
+      "vi": "Độ Đồng Bộ",
+      "en": "Sync Rate"
+    },
+    {
+      "termId": "organization",
+      "vi": "Tổ chức",
+      "en": "The Organization"
+    },
+    {
+      "termId": "chaos",
+      "vi": "Hỗn Loạn",
+      "en": "Chaos"
+    }
+  ],
+  "resources": [],
+  "images": [
+    {
+      "imageId": "cover-story",
+      "assetId": "image-90460b80-8229-4b92-9bd2-eaee071c8ef7",
+      "title": "The Last Gardener — Story cover",
+      "targetKind": "story",
+      "targetId": "the-last-gardener",
+      "reference": {
+        "repository": "covers",
+        "path": "assets/image-90460b80-8229-4b92-9bd2-eaee071c8ef7/image.png",
+        "commitSha": "ca03eccf5f9b44946765ec96aeb42d96e920f3c1"
+      },
+      "thumbnail": {
+        "repository": "covers",
+        "path": "assets/image-90460b80-8229-4b92-9bd2-eaee071c8ef7/thumbnail.webp",
+        "commitSha": "ca03eccf5f9b44946765ec96aeb42d96e920f3c1"
+      }
+    },
+    {
+      "imageId": "cover-volume-1",
+      "assetId": "image-e442be7e-f03f-4014-89a4-6c6952618b10",
+      "title": "Volume 1: Sowing Seeds — Deer cover",
+      "targetKind": "book",
+      "targetId": "volume-1",
+      "reference": {
+        "repository": "covers",
+        "path": "assets/image-e442be7e-f03f-4014-89a4-6c6952618b10/image.png",
+        "commitSha": "ca03eccf5f9b44946765ec96aeb42d96e920f3c1"
+      },
+      "thumbnail": {
+        "repository": "covers",
+        "path": "assets/image-e442be7e-f03f-4014-89a4-6c6952618b10/thumbnail.webp",
+        "commitSha": "ca03eccf5f9b44946765ec96aeb42d96e920f3c1"
+      }
+    }
+  ],
+  "originalDocuments": [],
+  "cover": {
+    "repository": "covers",
+    "path": "assets/image-90460b80-8229-4b92-9bd2-eaee071c8ef7/image.png",
+    "commitSha": "ca03eccf5f9b44946765ec96aeb42d96e920f3c1"
+  }
+}

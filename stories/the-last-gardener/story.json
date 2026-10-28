@@ -55,6 +55,14 @@
     {
       "id": "tag-3059c477-88cb-4f86-8272-a9665a05eff1",
       "name": "giới thiệu nhân vật"
+    },
+    {
+      "id": "tag-4803070e-0d58-4666-93da-3d2f2e646102",
+      "name": "xây dựng thế giới"
+    },
+    {
+      "id": "tag-ffedaadf-b529-40e5-b4bc-5952ecb476bf",
+      "name": "sinh tồn"
     }
   ],
   "genres": [
@@ -173,6 +181,24 @@
             {
               "language": "vi",
               "path": "stories/the-last-gardener/books/volume-1/chapters/chapter-070a60d2-b022-4042-a004-1399dda20c83/vi.md",
+              "status": "draft"
+            }
+          ]
+        },
+        {
+          "chapterId": "chapter-cedb8ea7-1d3b-4fba-9f39-7a75ee445ff3",
+          "number": 4,
+          "title": "Hành trình bắt đầu",
+          "types": [
+            "xây dựng thế giới",
+            "sinh tồn"
+          ],
+          "characterIds": [],
+          "milestoneIds": [],
+          "editions": [
+            {
+              "language": "vi",
+              "path": "stories/the-last-gardener/books/volume-1/chapters/chapter-cedb8ea7-1d3b-4fba-9f39-7a75ee445ff3/vi.md",
               "status": "draft"
             }
           ]

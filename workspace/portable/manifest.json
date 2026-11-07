@@ -1,0 +1,25 @@
+{
+  "format": "altair-portable-fixture",
+  "formatVersion": 1,
+  "workspaceId": "ws-my-story-test",
+  "contentSequence": "1",
+  "groups": {
+    "01": "library",
+    "02": "documents",
+    "03": "narrative",
+    "04": "voice",
+    "05": "world",
+    "06": "wiki",
+    "07": "timeline",
+    "08": "knowledge",
+    "09": "taxonomy",
+    "10": "editorial",
+    "11": "ideas",
+    "12": "metrics",
+    "13": "publication",
+    "14": "assets"
+  },
+  "auxiliary": ["history", "translations", "relations"],
+  "sourcePolicy": "only-observed-or-author-supplied",
+  "status": "design-fixture"
+}

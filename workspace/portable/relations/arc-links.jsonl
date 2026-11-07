@@ -1,0 +1,16 @@
+{"id":"link-001","arcId":"arc-mission","targetKind":"world_event","targetId":"event-b1-arrival","source":{"kind":"author_outline"}}
+{"id":"link-002","arcId":"arc-mission","targetKind":"wiki_state","targetId":"state-b1-vine","source":{"kind":"author_outline"}}
+{"id":"link-003","arcId":"arc-mission","targetKind":"wiki_state","targetId":"state-b1-on-mercy","source":{"kind":"author_outline"}}
+{"id":"link-004","arcId":"arc-mission","targetKind":"state_transition","targetId":"state-b1-bloom","source":{"kind":"author_outline"}}
+{"id":"link-005","arcId":"arc-mission","targetKind":"world_event","targetId":"event-b1-meet-humans","source":{"kind":"author_outline"}}
+{"id":"link-006","arcId":"arc-galahad","targetKind":"world_event","targetId":"event-b1-meet-humans","role":"opening","source":{"kind":"author_outline"}}
+{"id":"link-007","arcId":"arc-galahad","targetKind":"world_event","targetId":"event-b1-galahad-fate","source":{"kind":"author_outline"}}
+{"id":"link-008","arcId":"arc-galahad","targetKind":"world_event","targetId":"event-b1-fate-change","role":"closing","source":{"kind":"author_outline"}}
+{"id":"link-009","arcId":"arc-mission","targetKind":"world_event","targetId":"event-b1-fate-change","source":{"kind":"author_outline"}}
+{"id":"link-010","arcId":"arc-mercy","targetKind":"world_event","targetId":"event-b1-galahad-cares","source":{"kind":"author_outline"}}
+{"id":"link-011","arcId":"arc-mercy","targetKind":"world_event","targetId":"event-b1-toad","source":{"kind":"author_outline"}}
+{"id":"link-012","arcId":"arc-mercy","targetKind":"goal_state","targetId":"state-b1-side-goal","source":{"kind":"author_outline"}}
+{"id":"link-013","arcId":"arc-mercy","targetKind":"goal_state","targetId":"state-b1-buy-mercy","source":{"kind":"author_outline"}}
+{"id":"link-014","arcId":"arc-mercy","targetKind":"emotional_state","targetId":"state-b1-not-lose-mercy","source":{"kind":"author_outline"}}
+{"id":"link-015","arcId":"arc-mission","targetKind":"world_event","targetId":"event-b1-meteor","source":{"kind":"author_outline"}}
+{"id":"link-016","arcId":"arc-mission","targetKind":"world_event","targetId":"event-b1-mission-end","source":{"kind":"author_outline"}}

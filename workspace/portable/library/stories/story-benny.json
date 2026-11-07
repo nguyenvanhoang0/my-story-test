@@ -1,0 +1,6 @@
+{
+  "id": "story-benny",
+  "kind": "story",
+  "volumeIds": ["volume-b1", "volume-b2"],
+  "metadataStatus": "incomplete"
+}

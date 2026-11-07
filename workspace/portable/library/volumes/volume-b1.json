@@ -1,0 +1,10 @@
+{
+  "id": "volume-b1",
+  "kind": "volume",
+  "storyId": "story-benny",
+  "title": "Sowing Seeds (Gieo mầm)",
+  "rank": 1,
+  "chapterRangeHint": [1, 30],
+  "rangeSource": "author_arc_example",
+  "note": "Kho chưa có nội dung chương 1–30; khoảng chương chỉ phục vụ mô phỏng ba Arc"
+}

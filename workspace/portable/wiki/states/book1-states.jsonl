@@ -1,0 +1,6 @@
+{"id":"state-b1-vine","kind":"wiki_state","entityId":"entity-benny","attribute":"bodyForm","value":"vine","source":{"kind":"author_outline"}}
+{"id":"state-b1-on-mercy","kind":"wiki_state","entityId":"entity-benny","attribute":"position","value":"on Mercy's head","source":{"kind":"author_outline"}}
+{"id":"state-b1-bloom","kind":"state_transition","entityId":"entity-benny","attribute":"flowering","value":"bloomed","source":{"kind":"author_outline"}}
+{"id":"state-b1-side-goal","kind":"goal_state","entityId":"entity-benny","label":"Benny có mục tiêu phụ","source":{"kind":"author_outline"}}
+{"id":"state-b1-buy-mercy","kind":"goal_state","entityId":"entity-benny","label":"Benny muốn mua Mercy","source":{"kind":"author_outline"}}
+{"id":"state-b1-not-lose-mercy","kind":"emotional_state","entityId":"entity-benny","label":"Benny không muốn mất Mercy","source":{"kind":"author_outline"}}

@@ -1,0 +1,9 @@
+{
+  "id": "arc-mercy",
+  "kind": "arc",
+  "storyId": "story-benny",
+  "title": "Benny không muốn mất Mercy",
+  "chapterRangeHint": [10, 26],
+  "rangeVolumeId": "volume-b1",
+  "source": {"kind": "author_outline"}
+}

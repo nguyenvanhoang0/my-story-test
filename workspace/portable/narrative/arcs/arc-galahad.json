@@ -1,0 +1,9 @@
+{
+  "id": "arc-galahad",
+  "kind": "arc",
+  "storyId": "story-benny",
+  "title": "Số phận Galahad",
+  "chapterRangeHint": [8, 12],
+  "rangeVolumeId": "volume-b1",
+  "source": {"kind": "author_outline"}
+}

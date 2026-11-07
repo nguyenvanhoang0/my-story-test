@@ -1,0 +1,9 @@
+{
+  "id": "state-benny-human",
+  "kind": "wiki_state_change",
+  "entityId": "entity-benny",
+  "attribute": "bodyForm",
+  "value": "human",
+  "eventId": "event-benny-return",
+  "sourceRef": {"documentId": "document-b2-01", "paragraphId": "p010"}
+}

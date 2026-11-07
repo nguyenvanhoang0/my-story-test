@@ -1,0 +1,8 @@
+{
+  "id": "event-benny-return",
+  "kind": "world_event",
+  "storyId": "story-benny",
+  "title": "Benny trở về sau nhiệm vụ",
+  "participantIds": ["entity-benny"],
+  "sourceRef": {"documentId": "document-b2-01", "paragraphId": "p003"}
+}

@@ -1,0 +1,7 @@
+{
+  "id": "entity-benny",
+  "kind": "character",
+  "name": "Benny",
+  "aliases": ["Nhân viên Số 404"],
+  "sourceRef": {"documentId": "document-b2-01", "paragraphId": "p003"}
+}

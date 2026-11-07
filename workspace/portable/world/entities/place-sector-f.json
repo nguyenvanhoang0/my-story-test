@@ -1,0 +1,7 @@
+{
+  "id": "place-sector-f",
+  "kind": "location",
+  "name": "Sảnh Dịch Chuyển Khu Vực F",
+  "aliases": ["Sector F Transporter"],
+  "sourceRef": {"documentId": "document-b2-01", "paragraphId": "p025"}
+}

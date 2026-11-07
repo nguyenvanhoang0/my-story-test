@@ -1,0 +1,9 @@
+{
+  "id": "arc-mission",
+  "kind": "arc",
+  "storyId": "story-benny",
+  "title": "Nhiệm vụ ngăn thiên thạch",
+  "chapterRangeHint": [1, 30],
+  "rangeVolumeId": "volume-b1",
+  "source": {"kind": "author_outline"}
+}

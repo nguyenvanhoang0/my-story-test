@@ -1,0 +1,9 @@
+{
+  "id": "assertion-mercy-npc",
+  "kind": "belief",
+  "holderId": "entity-benny",
+  "subjectId": "entity-mercy",
+  "statement": "Mercy chỉ là NPC",
+  "truthStatus": "not_confirmed_as_fact",
+  "sourceRef": {"documentId": "document-b2-01", "paragraphId": "p043"}
+}

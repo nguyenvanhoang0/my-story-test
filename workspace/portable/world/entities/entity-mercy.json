@@ -1,0 +1,7 @@
+{
+  "id": "entity-mercy",
+  "kind": "creature",
+  "name": "Mercy",
+  "aliases": ["Hươu Trắng"],
+  "source": {"kind": "author_context", "note": "Bí danh được xác nhận ở ngữ cảnh tác giả ngoài chương 1 Quyển 2"}
+}

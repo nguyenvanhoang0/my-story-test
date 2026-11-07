@@ -1,0 +1,10 @@
+{
+  "format": "altair-demo-workspace",
+  "formatVersion": 1,
+  "workspaceId": "ws-my-story-test",
+  "portableRoot": "portable",
+  "runtimeDatabase": "runtime/workspace.demo.sqlite",
+  "runtimeCompatibility": "fixture-only-not-altair-ii",
+  "canonicalFixtureSource": "portable",
+  "contentSequence": "1"
+}

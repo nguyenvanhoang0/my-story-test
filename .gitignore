@@ -1,0 +1,5 @@
+# Runtime products, not source content.
+workspace/runtime/
+*.sqlite-shm
+*.sqlite-wal
+*.tmp

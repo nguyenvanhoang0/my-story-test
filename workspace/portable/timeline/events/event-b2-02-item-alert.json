@@ -1,0 +1,12 @@
+{
+  "id": "event-b2-02-item-alert",
+  "kind": "world_event",
+  "storyId": "story-benny",
+  "chapterId": "chapter-b2-02",
+  "title": "Hệ thống cảnh báo vật phẩm nhiệm vụ thất lạc",
+  "locationId": "place-logistics",
+  "participantIds": ["entity-benny", "entity-clerk-88"],
+  "subjectId": "item-genesis-seed",
+  "reportedItemIdentifier": "#GENESIS_SEED_ERROR_ACCESS_DENIED_S_CLASS",
+  "sourceRef": {"documentId": "document-b2-02", "paragraphId": "p017"}
+}

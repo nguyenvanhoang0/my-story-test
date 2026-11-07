@@ -1,0 +1,12 @@
+{
+  "id": "event-b2-03-mandatory-summons",
+  "kind": "world_event",
+  "storyId": "story-benny",
+  "chapterId": "chapter-b2-03",
+  "title": "Hệ thống thông báo cưỡng chế triệu tập Nhân viên 404 sau 10 giây",
+  "locationId": "place-sky-villa-707",
+  "participantIds": ["entity-benny"],
+  "notice": "Phát hiện giao thức nhập thế tương thích",
+  "countdownSeconds": 10,
+  "sourceRef": {"documentId": "document-b2-03", "paragraphId": "p105"}
+}

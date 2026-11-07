@@ -1,0 +1,8 @@
+{
+  "id": "entity-alfred",
+  "kind": "character",
+  "name": "Alfred",
+  "type": "Quản gia AI",
+  "appearance": "Khối cầu ánh sáng trắng đeo nơ đen",
+  "sourceRef": {"documentId": "document-b2-03", "paragraphId": "p009"}
+}

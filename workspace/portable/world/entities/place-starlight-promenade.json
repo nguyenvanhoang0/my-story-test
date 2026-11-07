@@ -1,0 +1,7 @@
+{
+  "id": "place-starlight-promenade",
+  "kind": "location",
+  "name": "Đại Lộ Ánh Sao",
+  "aliases": ["Starlight Promenade"],
+  "sourceRef": {"documentId": "document-b2-03", "paragraphId": "p028"}
+}

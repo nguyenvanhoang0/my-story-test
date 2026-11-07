@@ -1,0 +1,9 @@
+{
+  "id": "state-benny-wears-shadow-vest",
+  "kind": "wiki_state_change",
+  "entityId": "entity-benny",
+  "attribute": "currentlyWearing",
+  "targetId": "item-shadow-vest",
+  "value": "Vest Chiến Thuật Bóng Đêm",
+  "sourceRef": {"documentId": "document-b2-03", "paragraphId": "p093"}
+}

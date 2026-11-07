@@ -1,0 +1,9 @@
+{
+  "id": "state-benny-wallet-credit",
+  "kind": "wiki_state_change",
+  "entityId": "entity-benny",
+  "attribute": "walletCredit",
+  "value": {"amount": 10000000, "currency": "W.E.C"},
+  "eventId": "event-b2-02-compensation",
+  "sourceRef": {"documentId": "document-b2-02", "paragraphId": "p045"}
+}

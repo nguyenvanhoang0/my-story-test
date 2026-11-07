@@ -1,0 +1,7 @@
+{
+  "id": "state-benny-unease",
+  "kind": "emotional_state",
+  "entityId": "entity-benny",
+  "value": "Lạc lõng và bất an dù đã giàu có",
+  "sourceRef": {"documentId": "document-b2-03", "paragraphId": "p040"}
+}

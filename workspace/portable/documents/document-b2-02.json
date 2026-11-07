@@ -1,0 +1,12 @@
+{
+  "id": "document-b2-02",
+  "kind": "document",
+  "language": "vi",
+  "bodyPath": "documents/document-b2-02.md",
+  "bodySha256": "6ce47aea3643d01150bac7f2245d33fbbb85a9978abe02d7b0ae868926739b17",
+  "revision": "1",
+  "source": {
+    "kind": "author_supplied_text",
+    "note": "Nguyên văn Chương 2 tách từ tệp Markdown do tác giả cung cấp; tác giả không ghi tiêu đề riêng"
+  }
+}

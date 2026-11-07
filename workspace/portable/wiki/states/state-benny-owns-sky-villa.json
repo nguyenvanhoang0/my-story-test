@@ -1,0 +1,10 @@
+{
+  "id": "state-benny-owns-sky-villa",
+  "kind": "wiki_state_change",
+  "entityId": "entity-benny",
+  "attribute": "propertyOwnership",
+  "targetId": "place-sky-villa-707",
+  "value": "Sky-Villa số 707",
+  "eventId": "event-b2-03-sky-villa",
+  "sourceRef": {"documentId": "document-b2-03", "paragraphId": "p003"}
+}

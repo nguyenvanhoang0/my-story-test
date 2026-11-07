@@ -1,0 +1,11 @@
+{
+  "id": "event-b2-03-equipment-checkout",
+  "kind": "world_event",
+  "storyId": "story-benny",
+  "chapterId": "chapter-b2-03",
+  "title": "Benny thanh toán giỏ hàng trang bị",
+  "locationId": "place-sky-villa-707",
+  "participantIds": ["entity-benny", "entity-alfred"],
+  "debitedAmount": {"amount": 1705000, "currency": "W.E.C"},
+  "sourceRef": {"documentId": "document-b2-03", "paragraphId": "p095"}
+}

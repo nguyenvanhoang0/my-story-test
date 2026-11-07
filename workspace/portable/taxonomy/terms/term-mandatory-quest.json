@@ -1,0 +1,9 @@
+{
+  "id": "term-mandatory-quest",
+  "kind": "term",
+  "name": "Nhiệm Vụ Bắt Buộc",
+  "aliases": ["Mandatory Quest"],
+  "definitionAsStated": "Theo lời Clerk 88, hệ thống tạo nhiệm vụ và triệu tập người neo khi vật phẩm va chạm hoặc dừng ở thế giới khác",
+  "statedById": "entity-clerk-88",
+  "sourceRef": {"documentId": "document-b2-02", "paragraphId": "p036"}
+}

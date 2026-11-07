@@ -1,0 +1,9 @@
+{
+  "id": "state-benny-wallet-balance",
+  "kind": "wiki_state_change",
+  "entityId": "entity-benny",
+  "attribute": "walletBalance",
+  "value": {"amount": 8195000, "currency": "W.E.C"},
+  "eventId": "event-b2-03-equipment-checkout",
+  "sourceRef": {"documentId": "document-b2-03", "paragraphId": "p095"}
+}

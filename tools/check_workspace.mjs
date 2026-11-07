@@ -53,7 +53,7 @@ function checkRef(owner, field, target) {
 
 const documents = new Map();
 for (const [id, { record }] of records) {
-  for (const key of ['storyId', 'volumeId', 'documentId', 'entityId', 'eventId', 'holderId', 'subjectId', 'arcId', 'targetId']) checkRef(id, key, record[key]);
+  for (const key of ['storyId', 'volumeId', 'chapterId', 'documentId', 'entityId', 'eventId', 'locationId', 'holderId', 'subjectId', 'statedById', 'toldById', 'arcId', 'targetId']) checkRef(id, key, record[key]);
   for (const key of ['volumeIds', 'participantIds']) for (const target of record[key] ?? []) checkRef(id, key, target);
   if (record.sourceRef?.documentId) checkRef(id, 'sourceRef.documentId', record.sourceRef.documentId);
   if (record.kind !== 'document') continue;
@@ -82,6 +82,12 @@ for (const [id, { record }] of records) {
     if (volume?.storyId !== record.storyId) problems.push(`${id}: volume from different story`);
     const sourceDoc = records.get(record.documentId)?.record;
     if (sourceDoc?.kind !== 'document') problems.push(`${id}: documentId does not point to a Document`);
+  }
+  if (record.chapterId) {
+    const chapter = records.get(record.chapterId)?.record;
+    if (chapter?.kind !== 'chapter') problems.push(`${id}: chapterId does not point to a Chapter`);
+    if (record.storyId && chapter?.storyId !== record.storyId) problems.push(`${id}: source chapter from different story`);
+    if (record.sourceRef?.documentId && chapter?.documentId !== record.sourceRef.documentId) problems.push(`${id}: source document not attached to cited chapter`);
   }
   if (record.arcId && record.targetId) {
     if (records.get(record.arcId)?.record?.kind !== 'arc') problems.push(`${id}: invalid ArcLink source`);

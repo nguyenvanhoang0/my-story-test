@@ -1,0 +1,8 @@
+{
+  "id": "relation-benny-toad",
+  "kind": "entity_relation",
+  "subjectId": "entity-benny",
+  "targetId": "entity-golden-toad",
+  "relation": "carries_in_glass_cage",
+  "sourceRef": {"documentId": "document-b2-02", "paragraphId": "p052"}
+}

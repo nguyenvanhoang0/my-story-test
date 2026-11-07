@@ -1,0 +1,11 @@
+{
+  "id": "state-benny-anchor-claim",
+  "kind": "wiki_state_change",
+  "entityId": "entity-benny",
+  "attribute": "causalAnchorTo",
+  "targetId": "item-genesis-seed",
+  "value": "Theo lời Clerk 88, Benny là Mỏ Neo của Hạt Giống",
+  "evidenceStatus": "character_claim",
+  "eventId": "event-b2-02-anchor-disclosure",
+  "sourceRef": {"documentId": "document-b2-02", "paragraphId": "p035"}
+}

@@ -1,0 +1,9 @@
+{
+  "id": "relation-benny-seed-anchor",
+  "kind": "entity_relation",
+  "subjectId": "entity-benny",
+  "targetId": "item-genesis-seed",
+  "relation": "causal_anchor",
+  "evidenceStatus": "explained_by_clerk_88; later_mandatory_summons_observed",
+  "sourceRef": {"documentId": "document-b2-02", "paragraphId": "p035"}
+}

@@ -1,0 +1,11 @@
+{
+  "id": "event-b2-02-compensation",
+  "kind": "world_event",
+  "storyId": "story-benny",
+  "chapterId": "chapter-b2-02",
+  "title": "Benny nhận khoản cộng 10.000.000 W.E.C",
+  "locationId": "place-logistics",
+  "participantIds": ["entity-benny", "entity-clerk-88"],
+  "creditedAmount": {"amount": 10000000, "currency": "W.E.C"},
+  "sourceRef": {"documentId": "document-b2-02", "paragraphId": "p045"}
+}

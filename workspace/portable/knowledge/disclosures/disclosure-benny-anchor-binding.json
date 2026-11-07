@@ -1,0 +1,10 @@
+{
+  "id": "disclosure-benny-anchor-binding",
+  "kind": "disclosure",
+  "subjectId": "item-genesis-seed",
+  "holderId": "entity-benny",
+  "toldById": "entity-clerk-88",
+  "statement": "Benny được thông báo mình là Mỏ Neo và có thể bị triệu tập vì vật phẩm",
+  "eventId": "event-b2-02-anchor-disclosure",
+  "sourceRef": {"documentId": "document-b2-02", "paragraphId": "p035"}
+}

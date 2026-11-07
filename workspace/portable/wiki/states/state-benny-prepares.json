@@ -1,0 +1,7 @@
+{
+  "id": "state-benny-prepares",
+  "kind": "goal_state",
+  "entityId": "entity-benny",
+  "value": "Benny quyết định trở về nhà và chuẩn bị cho lần triệu tập",
+  "sourceRef": {"documentId": "document-b2-03", "paragraphId": "p064"}
+}

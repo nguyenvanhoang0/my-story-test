@@ -1,0 +1,8 @@
+{
+  "id": "item-genesis-seed",
+  "kind": "item",
+  "name": "Hạt Giống",
+  "aliases": ["Vật phẩm X"],
+  "alertItemIdentifier": "#GENESIS_SEED_ERROR_ACCESS_DENIED_S_CLASS",
+  "sourceRef": {"documentId": "document-b2-02", "paragraphId": "p017"}
+}

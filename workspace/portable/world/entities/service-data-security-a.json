@@ -1,0 +1,9 @@
+{
+  "id": "service-data-security-a",
+  "kind": "service",
+  "name": "Gói Nâng Cấp Quyền Hạn Bảo Mật Dữ Liệu",
+  "grade": "Chuẩn A",
+  "listedPrice": {"amount": 1500000, "currency": "W.E.C"},
+  "description": "Mã hóa ký ức và thông tin cá nhân; chặn lệnh quét não từ nhân viên cấp dưới S",
+  "sourceRef": {"documentId": "document-b2-03", "paragraphId": "p081"}
+}

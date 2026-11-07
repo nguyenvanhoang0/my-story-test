@@ -1,0 +1,10 @@
+{
+  "id": "event-b2-03-benny-disappears",
+  "kind": "world_event",
+  "storyId": "story-benny",
+  "chapterId": "chapter-b2-03",
+  "title": "Benny biến mất khỏi căn Sky-Villa sau luồng sáng",
+  "locationId": "place-sky-villa-707",
+  "participantIds": ["entity-benny"],
+  "sourceRef": {"documentId": "document-b2-03", "paragraphId": "p113"}
+}

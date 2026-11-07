@@ -1,0 +1,7 @@
+{
+  "id": "place-logistics",
+  "kind": "location",
+  "name": "Ban Hậu Cần & Quyết Toán",
+  "aliases": ["Logistics & Settlement Dept.", "Cái Dạ Dày"],
+  "sourceRef": {"documentId": "document-b2-02", "paragraphId": "p003"}
+}

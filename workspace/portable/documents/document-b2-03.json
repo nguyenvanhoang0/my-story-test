@@ -1,0 +1,13 @@
+{
+  "id": "document-b2-03",
+  "kind": "document",
+  "title": "Cuộc Sống Thượng Lưu & Sự Nhàm Chán",
+  "language": "vi",
+  "bodyPath": "documents/document-b2-03.md",
+  "bodySha256": "7e56db88b3ebba9b520da5948194eefeb913192a7a9583c522d4d34462e3cb9c",
+  "revision": "1",
+  "source": {
+    "kind": "author_supplied_text",
+    "note": "Nguyên văn Chương 3 tách từ cùng tệp Markdown do tác giả cung cấp"
+  }
+}

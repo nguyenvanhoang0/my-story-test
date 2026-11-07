@@ -1,0 +1,8 @@
+{
+  "id": "place-hall-of-essence",
+  "kind": "location",
+  "name": "Sảnh Tinh Hoa",
+  "aliases": ["The Hall of Essence"],
+  "description": "Nơi trưng bày mô hình thời gian thực của Cây Thế Giới",
+  "sourceRef": {"documentId": "document-b2-03", "paragraphId": "p045"}
+}

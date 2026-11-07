@@ -1,0 +1,11 @@
+{
+  "id": "event-b2-02-anchor-disclosure",
+  "kind": "world_event",
+  "storyId": "story-benny",
+  "chapterId": "chapter-b2-02",
+  "title": "Clerk 88 giải thích liên kết Mỏ Neo và Nhiệm Vụ Bắt Buộc",
+  "locationId": "place-logistics",
+  "participantIds": ["entity-benny", "entity-clerk-88"],
+  "subjectId": "item-genesis-seed",
+  "sourceRef": {"documentId": "document-b2-02", "paragraphId": "p035"}
+}

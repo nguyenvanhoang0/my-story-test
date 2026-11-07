@@ -42,9 +42,17 @@ Trong ứng dụng thật, DATA_MODEL Altair II định hướng SQLite là ngu�
 
 `sourceRef` có `documentId` và có thể có `paragraphId`, hoặc `kind: author_outline` khi dữ liệu chỉ do tác giả nêu ngoài văn bản. Vị trí `p001...` dựa trên cách đếm **đoạn văn nội dung, bỏ hai dòng tiêu đề Markdown**, bắt đầu từ 1. Khi sửa body, cần kiểm lại neo theo revision/hash trước khi tiếp tục dùng.
 
+Với Chương 2–3 Quyển 2, bản dán của tác giả chứa tiêu đề dạng văn bản thường (không phải
+`#` Markdown), nên `p001` là đoạn tiêu đề nguồn; `p002` bắt đầu nội dung. Kho lưu
+giữ nguyên `&#x9;` và ký tự escape Markdown được tác giả dán; không chuẩn hóa ngầm.
+Khi bóc tách, các sự kiện được gắn `chapterId` và `sourceRef` để truy vết.
+
 ## Những gì chưa tạo
 
 Không có dữ liệu thật cho Plotline, Beat, POV, Fictional Calendar, Conlang, mục tiêu số từ, phiên viết, asset bìa, publication profile và quyền đồng tác giả. Các thư mục/index rỗng là trạng thái hợp lệ, **không phải lỗi cấu trúc**.
+Không tự suy ra Arc của Quyển 2, giới tính hay tuổi của nhân vật phụ, ngày theo lịch hư cấu
+hoặc đặt tên cho Chương 2. Nhận định của Clerk 88 về việc phát nhầm vật phẩm vẫn là
+`Assertion`, khác với cảnh báo hệ thống đã hiển thị.
 
 ## Giới hạn
 

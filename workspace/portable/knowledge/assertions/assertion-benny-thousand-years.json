@@ -1,0 +1,10 @@
+{
+  "id": "assertion-benny-thousand-years",
+  "kind": "belief",
+  "holderId": "entity-benny",
+  "subjectId": "item-genesis-seed",
+  "statement": "Benny đoán có lẽ phải mất ngàn năm Hạt Giống mới va vào thứ gì đó",
+  "truthStatus": "contradicted_by_later_observed_summons",
+  "eventId": "event-b2-03-mandatory-summons",
+  "sourceRef": {"documentId": "document-b2-02", "paragraphId": "p058"}
+}

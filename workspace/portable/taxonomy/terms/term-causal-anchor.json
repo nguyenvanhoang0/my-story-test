@@ -1,0 +1,9 @@
+{
+  "id": "term-causal-anchor",
+  "kind": "term",
+  "name": "Mỏ Neo",
+  "aliases": ["Anchor"],
+  "definitionAsStated": "Người kích hoạt và cộng sinh với vật phẩm trở thành neo của vật phẩm",
+  "statedById": "entity-clerk-88",
+  "sourceRef": {"documentId": "document-b2-02", "paragraphId": "p035"}
+}

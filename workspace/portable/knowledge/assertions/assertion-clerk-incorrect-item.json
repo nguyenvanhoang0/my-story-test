@@ -1,0 +1,9 @@
+{
+  "id": "assertion-clerk-incorrect-item",
+  "kind": "assertion",
+  "holderId": "entity-clerk-88",
+  "subjectId": "item-genesis-seed",
+  "statement": "Kho Vũ Khí đã phát nhầm vật phẩm nhiệm vụ cho Benny",
+  "truthStatus": "not_confirmed_as_fact",
+  "sourceRef": {"documentId": "document-b2-02", "paragraphId": "p025"}
+}

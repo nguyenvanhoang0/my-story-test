@@ -1,0 +1,8 @@
+{
+  "id": "entity-golden-toad",
+  "kind": "creature",
+  "name": "Con Cóc Vàng",
+  "aliases": ["Cục Vàng"],
+  "description": "Thần Tài của làng Đá Đen; xuất hiện trong lồng kính, đã bị thu nhỏ bằng nắm tay",
+  "sourceRef": {"documentId": "document-b2-02", "paragraphId": "p052"}
+}

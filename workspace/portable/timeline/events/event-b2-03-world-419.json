@@ -1,0 +1,12 @@
+{
+  "id": "event-b2-03-world-419",
+  "kind": "world_event",
+  "storyId": "story-benny",
+  "chapterId": "chapter-b2-03",
+  "title": "Mô hình Cây Thế Giới hiển thị nhánh đại diện Thế giới 419 sụp đổ",
+  "locationId": "place-hall-of-essence",
+  "participantIds": ["entity-benny"],
+  "reportedLosses": "Một người không tên nói hai nhân viên cấp C tử nạn",
+  "evidenceStatus": "observed_on_model_with_unnamed_witness_report",
+  "sourceRef": {"documentId": "document-b2-03", "paragraphId": "p055"}
+}

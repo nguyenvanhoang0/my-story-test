@@ -1,0 +1,11 @@
+{
+  "id": "event-b2-03-sky-villa",
+  "kind": "world_event",
+  "storyId": "story-benny",
+  "chapterId": "chapter-b2-03",
+  "title": "Xác nhận Benny sở hữu Sky-Villa số 707",
+  "locationId": "place-sky-villa-707",
+  "participantIds": ["entity-benny"],
+  "paidAmount": {"amount": 100000, "currency": "W.E.C"},
+  "sourceRef": {"documentId": "document-b2-03", "paragraphId": "p003"}
+}

@@ -1,0 +1,8 @@
+{
+  "id": "place-white-district",
+  "kind": "location",
+  "name": "Khu Vực Trắng",
+  "aliases": ["The White District"],
+  "description": "Vành đai nhân tạo ở tầng cao nhất của Vương Miện",
+  "sourceRef": {"documentId": "document-b2-03", "paragraphId": "p002"}
+}

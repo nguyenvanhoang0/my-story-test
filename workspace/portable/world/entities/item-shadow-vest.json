@@ -1,0 +1,8 @@
+{
+  "id": "item-shadow-vest",
+  "kind": "item",
+  "name": "Vest Chiến Thuật Bóng Đêm",
+  "listedPrice": {"amount": 5000, "currency": "W.E.C"},
+  "features": ["Chống đạn vật lý và năng lượng", "Tự làm sạch", "Điều hòa thân nhiệt", "10 túi không gian nhỏ", "Ẩn trong điểm mù người khác"],
+  "sourceRef": {"documentId": "document-b2-03", "paragraphId": "p088"}
+}

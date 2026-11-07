@@ -1,0 +1,10 @@
+{
+  "id": "item-omni-driver",
+  "kind": "item",
+  "name": "Omni-Driver",
+  "aliases": ["Trình Điều Khiển Vạn Năng"],
+  "grade": "S",
+  "listedPrice": {"amount": 200000, "currency": "W.E.C"},
+  "description": "Cho phép linh hồn điều khiển máy móc, phương tiện hoặc cơ thể nhân tạo với độ trễ bằng 0; kèm Machine Speak",
+  "sourceRef": {"documentId": "document-b2-03", "paragraphId": "p073"}
+}

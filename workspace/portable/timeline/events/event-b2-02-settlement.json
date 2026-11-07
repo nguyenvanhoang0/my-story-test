@@ -1,0 +1,10 @@
+{
+  "id": "event-b2-02-settlement",
+  "kind": "world_event",
+  "storyId": "story-benny",
+  "chapterId": "chapter-b2-02",
+  "title": "Benny đến quyết toán nhiệm vụ 068A",
+  "locationId": "place-logistics",
+  "participantIds": ["entity-benny", "entity-clerk-88"],
+  "sourceRef": {"documentId": "document-b2-02", "paragraphId": "p011"}
+}

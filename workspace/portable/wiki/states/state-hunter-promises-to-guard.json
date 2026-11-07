@@ -1,0 +1,8 @@
+{
+  "id": "state-hunter-promises-to-guard",
+  "kind": "goal_state",
+  "entityId": "entity-unnamed-young-hunter",
+  "value": "Hứa sẽ đứng gác ngoài lều Galahad vào sáng hôm sau",
+  "status": "intention_not_confirmed_as_completed",
+  "sourceRef": {"documentId": "document-free-galahad-01", "paragraphId": "p041"}
+}

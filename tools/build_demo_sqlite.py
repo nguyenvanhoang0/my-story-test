@@ -61,7 +61,7 @@ def run():
                 if item.get("bodySha256") and item["bodySha256"] != digest:
                     raise ValueError(f"Body checksum mismatch: {item['id']}")
                 db.execute("INSERT INTO documents VALUES (?,?,?)", (item["id"], body_bytes.decode("utf-8"), digest))
-            for field in ("storyId", "volumeId", "chapterId", "documentId", "entityId", "eventId", "locationId", "holderId", "subjectId", "statedById", "toldById", "arcId", "targetId"):
+            for field in ("storyId", "volumeId", "chapterId", "sceneId", "documentId", "entityId", "eventId", "locationId", "holderId", "subjectId", "statedById", "toldById", "arcId", "targetId"):
                 if item.get(field):
                     references.append((item["id"], item[field], field))
             for field in ("volumeIds", "participantIds"):

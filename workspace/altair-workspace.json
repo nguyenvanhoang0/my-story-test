@@ -6,5 +6,5 @@
   "runtimeDatabase": "runtime/workspace.demo.sqlite",
   "runtimeCompatibility": "fixture-only-not-altair-ii",
   "canonicalFixtureSource": "portable",
-  "contentSequence": "2"
+  "contentSequence": "3"
 }

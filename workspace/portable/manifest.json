@@ -2,7 +2,7 @@
   "format": "altair-portable-fixture",
   "formatVersion": 1,
   "workspaceId": "ws-my-story-test",
-  "contentSequence": "2",
+  "contentSequence": "3",
   "groups": {
     "01": "library",
     "02": "documents",

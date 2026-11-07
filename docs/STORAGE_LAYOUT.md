@@ -32,6 +32,8 @@ Trong ứng dụng thật, DATA_MODEL Altair II định hướng SQLite là ngu�
 
 - ID ổn định, không suy danh tính từ tên file hay thứ tự chương.
 - `Document` giữ nội dung gốc. `Chapter` chỉ tham chiếu `documentId`, có thể không có `volumeId`; Document có thể chưa thuộc Story.
+- Một Chapter có `storyId` nhưng không có `volumeId` phải xuất hiện dưới mục chương
+  ngoài quyển của Story; không tự gắn vào Volume có sẵn.
 - `Arc` chứa phạm vi dự kiến; `ArcLink` nối Arc ↔ sự kiện/trạng thái/cảnh/chương theo ID, không sao chép đối tượng đích.
 - `WorldEntity` là đối tượng có cấu trúc; `WikiArticle` là bài mô tả riêng. Không ép mọi Entity phải có WikiArticle.
 - Event, trạng thái, niềm tin và tiết lộ là các đối tượng khác nhau. Lời Benny tự nhủ Mercy là NPC nằm trong `knowledge/assertions`, **không là World Fact**.
@@ -46,6 +48,11 @@ Với Chương 2–3 Quyển 2, bản dán của tác giả chứa tiêu đề d
 `#` Markdown), nên `p001` là đoạn tiêu đề nguồn; `p002` bắt đầu nội dung. Kho lưu
 giữ nguyên `&#x9;` và ký tự escape Markdown được tác giả dán; không chuẩn hóa ngầm.
 Khi bóc tách, các sự kiện được gắn `chapterId` và `sourceRef` để truy vết.
+
+Chương Galahad mẫu không có tiêu đề, `rank` hoặc `volumeId`; chỉ có `storyId` và
+`documentId`. Ba Scene có `startParagraphId`/`endParagraphId` theo dấu ngắt thật
+của văn bản và liên kết ngược tới Chapter, không tự nhận thuộc Arc nào. Các khẳng
+định từ chàng thợ săn chưa được xác minh độc lập không được lưu như sự thật khách quan.
 
 ## Những gì chưa tạo
 

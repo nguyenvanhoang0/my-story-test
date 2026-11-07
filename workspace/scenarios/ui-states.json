@@ -5,6 +5,7 @@
     {"id": "demo-draft", "scopeId": "document-b2-01", "contentLifecycle": "draft"},
     {"id": "demo-unchecked", "scopeId": "chapter-b2-01", "continuityReview": "not_checked"},
     {"id": "demo-wiki-pending", "scopeId": "entity-octopus-stranger", "wikiCompleteness": "incomplete"},
-    {"id": "demo-mirror-stale", "scopeId": "ws-my-story-test", "mirrorStatus": "behind"}
+    {"id": "demo-mirror-stale", "scopeId": "ws-my-story-test", "mirrorStatus": "behind"},
+    {"id": "demo-unvolumed-untitled-chapter", "scopeId": "chapter-free-galahad-01", "volumeAssignment": "none", "titlePresentation": "fallback_from_chapter_type"}
   ]
 }

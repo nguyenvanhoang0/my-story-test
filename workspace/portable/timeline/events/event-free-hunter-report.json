@@ -1,0 +1,12 @@
+{
+  "id": "event-free-hunter-report",
+  "kind": "world_event",
+  "storyId": "story-benny",
+  "chapterId": "chapter-free-galahad-01",
+  "sceneId": "scene-free-galahad-01",
+  "title": "Cậu trai báo cho Galahad việc không thấy khói ở làng TAK-GH’ORR",
+  "participantIds": ["entity-galahad", "entity-unnamed-young-hunter"],
+  "subjectId": "place-tak-ghorr",
+  "evidenceStatus": "report_by_character_not_independent_confirmation",
+  "sourceRef": {"documentId": "document-free-galahad-01", "paragraphId": "p035"}
+}

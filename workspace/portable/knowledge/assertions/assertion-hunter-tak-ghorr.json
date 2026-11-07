@@ -1,0 +1,9 @@
+{
+  "id": "assertion-hunter-tak-ghorr",
+  "kind": "assertion",
+  "holderId": "entity-unnamed-young-hunter",
+  "subjectId": "place-tak-ghorr",
+  "statement": "Cậu trai nói đã hai mặt trời mọc nhưng làng TAK-GH’ORR không có một vệt khói",
+  "truthStatus": "reported_not_independently_verified",
+  "sourceRef": {"documentId": "document-free-galahad-01", "paragraphId": "p035"}
+}

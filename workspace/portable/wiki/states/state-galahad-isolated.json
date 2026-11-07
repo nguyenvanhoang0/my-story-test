@@ -1,0 +1,9 @@
+{
+  "id": "state-galahad-isolated",
+  "kind": "wiki_state",
+  "entityId": "entity-galahad",
+  "attribute": "socialRestrictions",
+  "value": "Bị tách biệt với phần còn lại của làng và bị bảo vệ như thánh tích",
+  "timeAsQuoted": "Từ khi sinh ra",
+  "sourceRef": {"documentId": "document-free-galahad-01", "paragraphId": "p004"}
+}

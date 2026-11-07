@@ -1,0 +1,7 @@
+{
+  "id": "entity-locust-swarm",
+  "kind": "creature",
+  "name": "Đàn cào cào",
+  "description": "Đàn cào cào hàng tỉ con di chuyển và ăn trụi cây cỏ",
+  "sourceRef": {"documentId": "document-free-galahad-01", "paragraphId": "p131"}
+}

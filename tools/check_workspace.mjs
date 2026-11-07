@@ -53,7 +53,7 @@ function checkRef(owner, field, target) {
 
 const documents = new Map();
 for (const [id, { record }] of records) {
-  for (const key of ['storyId', 'volumeId', 'chapterId', 'documentId', 'entityId', 'eventId', 'locationId', 'holderId', 'subjectId', 'statedById', 'toldById', 'arcId', 'targetId']) checkRef(id, key, record[key]);
+  for (const key of ['storyId', 'volumeId', 'chapterId', 'sceneId', 'documentId', 'entityId', 'eventId', 'locationId', 'holderId', 'subjectId', 'statedById', 'toldById', 'arcId', 'targetId']) checkRef(id, key, record[key]);
   for (const key of ['volumeIds', 'participantIds']) for (const target of record[key] ?? []) checkRef(id, key, target);
   if (record.sourceRef?.documentId) checkRef(id, 'sourceRef.documentId', record.sourceRef.documentId);
   if (record.kind !== 'document') continue;
@@ -79,7 +79,8 @@ for (const [id, { record }] of records) {
   }
   if (record.kind === 'chapter') {
     const volume = records.get(record.volumeId)?.record;
-    if (volume?.storyId !== record.storyId) problems.push(`${id}: volume from different story`);
+    if (record.volumeId && volume?.kind !== 'volume') problems.push(`${id}: volumeId does not point to a Volume`);
+    if (record.volumeId && volume?.storyId !== record.storyId) problems.push(`${id}: volume from different story`);
     const sourceDoc = records.get(record.documentId)?.record;
     if (sourceDoc?.kind !== 'document') problems.push(`${id}: documentId does not point to a Document`);
   }
@@ -88,6 +89,16 @@ for (const [id, { record }] of records) {
     if (chapter?.kind !== 'chapter') problems.push(`${id}: chapterId does not point to a Chapter`);
     if (record.storyId && chapter?.storyId !== record.storyId) problems.push(`${id}: source chapter from different story`);
     if (record.sourceRef?.documentId && chapter?.documentId !== record.sourceRef.documentId) problems.push(`${id}: source document not attached to cited chapter`);
+  }
+  if (record.kind === 'scene') {
+    const sourceDoc = records.get(record.documentId)?.record;
+    const chapter = records.get(record.chapterId)?.record;
+    if (sourceDoc?.kind !== 'document') problems.push(`${id}: scene does not reference a document`);
+    if (chapter?.documentId !== record.documentId) problems.push(`${id}: scene chapter/document mismatch`);
+    const paragraphCount = documents.get(record.documentId)?.paragraphs.length;
+    const from = /^p(\d{3})$/.exec(record.startParagraphId ?? '');
+    const to = /^p(\d{3})$/.exec(record.endParagraphId ?? '');
+    if (!from || !to || !paragraphCount || Number(from[1]) < 1 || Number(from[1]) > Number(to[1]) || Number(to[1]) > paragraphCount) problems.push(`${id}: scene paragraph range invalid`);
   }
   if (record.arcId && record.targetId) {
     if (records.get(record.arcId)?.record?.kind !== 'arc') problems.push(`${id}: invalid ArcLink source`);
@@ -104,6 +115,7 @@ for (const group of expectedGroups) if (!Object.values(manifest.groups).includes
 const scenario = JSON.parse(await readFile(join(root, 'workspace', 'scenarios', 'ui-states.json'), 'utf8'));
 for (const item of scenario.examples) {
   if (item.scopeId !== workspace.workspaceId) checkRef(item.id, 'scopeId', item.scopeId);
+  if (item.volumeAssignment === 'none' && records.get(item.scopeId)?.record?.volumeId) problems.push(`${item.id}: claimed unvolumed chapter has volumeId`);
 }
 
 if (problems.length) {

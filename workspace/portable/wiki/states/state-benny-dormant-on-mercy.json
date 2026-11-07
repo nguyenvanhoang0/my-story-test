@@ -1,0 +1,8 @@
+{
+  "id": "state-benny-dormant-on-mercy",
+  "kind": "wiki_state",
+  "entityId": "entity-benny",
+  "attribute": "consciousness",
+  "value": "Cây trên đầu Mercy đang im lìm, được Galahad gọi là chưa tỉnh",
+  "sourceRef": {"documentId": "document-free-galahad-01", "paragraphId": "p073"}
+}

@@ -1,0 +1,11 @@
+{
+  "id": "event-free-locust-invasion",
+  "kind": "world_event",
+  "storyId": "story-benny",
+  "chapterId": "chapter-free-galahad-01",
+  "sceneId": "scene-free-galahad-03",
+  "title": "Mercy cảm nhận Vùng đất hứa bị xâm phạm; đàn cào cào di chuyển tới",
+  "locationId": "place-promised-land",
+  "participantIds": ["entity-mercy", "entity-galahad", "entity-locust-swarm"],
+  "sourceRef": {"documentId": "document-free-galahad-01", "paragraphId": "p125"}
+}

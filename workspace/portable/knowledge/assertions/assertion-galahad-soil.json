@@ -1,0 +1,8 @@
+{
+  "id": "assertion-galahad-soil",
+  "kind": "belief",
+  "holderId": "entity-galahad",
+  "statement": "Galahad lo rằng cỏ mọc quá nhanh sẽ sớm làm đất kiệt sức",
+  "truthStatus": "not_confirmed_as_fact",
+  "sourceRef": {"documentId": "document-free-galahad-01", "paragraphId": "p024"}
+}

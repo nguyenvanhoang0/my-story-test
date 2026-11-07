@@ -1,0 +1,12 @@
+{
+  "id": "document-free-galahad-01",
+  "kind": "document",
+  "language": "vi",
+  "bodyPath": "documents/document-free-galahad-01.md",
+  "bodySha256": "5a1208e769868f8e8ada154e973fe2b7d8fabbeb1c7c506fbc4659988a228bd8",
+  "revision": "1",
+  "source": {
+    "kind": "author_supplied_text",
+    "note": "Nguyên văn chương không có tiêu đề; tác giả yêu cầu xếp ngoài mọi quyển"
+  }
+}

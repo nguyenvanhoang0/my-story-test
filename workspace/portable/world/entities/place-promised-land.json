@@ -1,0 +1,7 @@
+{
+  "id": "place-promised-land",
+  "kind": "location",
+  "name": "Vùng đất hứa",
+  "boundaryAsQuoted": "biên giới mười tám cây số",
+  "sourceRef": {"documentId": "document-free-galahad-01", "paragraphId": "p125"}
+}

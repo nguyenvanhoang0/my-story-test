@@ -1,0 +1,7 @@
+{
+  "id": "place-tribal-shrine",
+  "kind": "location",
+  "name": "Lều Thờ",
+  "description": "Nằm ở trung tâm bộ lạc; Galahad vào gặp Mercy",
+  "sourceRef": {"documentId": "document-free-galahad-01", "paragraphId": "p061"}
+}

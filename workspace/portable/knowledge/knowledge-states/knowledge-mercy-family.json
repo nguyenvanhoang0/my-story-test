@@ -1,0 +1,9 @@
+{
+  "id": "knowledge-mercy-family",
+  "kind": "knowledge_state",
+  "holderId": "entity-mercy",
+  "statement": "Mercy được Galahad dạy từ Gia đình và thử liên hệ khái niệm đó với Benny, Galahad, làng",
+  "comprehensionAsNarrated": "Chưa hiểu hết nhưng cố nhớ",
+  "eventId": "event-free-mercy-family-lesson",
+  "sourceRef": {"documentId": "document-free-galahad-01", "paragraphId": "p099"}
+}

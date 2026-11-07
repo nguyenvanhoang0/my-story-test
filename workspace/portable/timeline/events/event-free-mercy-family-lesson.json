@@ -1,0 +1,12 @@
+{
+  "id": "event-free-mercy-family-lesson",
+  "kind": "world_event",
+  "storyId": "story-benny",
+  "chapterId": "chapter-free-galahad-01",
+  "sceneId": "scene-free-galahad-02",
+  "title": "Buổi học thứ ba: Galahad dạy Mercy từ Gia đình",
+  "locationId": "place-tribal-shrine",
+  "participantIds": ["entity-galahad", "entity-mercy"],
+  "relativeTimeAsQuoted": "Ba ngày sau khi vị thần đến",
+  "sourceRef": {"documentId": "document-free-galahad-01", "paragraphId": "p082"}
+}

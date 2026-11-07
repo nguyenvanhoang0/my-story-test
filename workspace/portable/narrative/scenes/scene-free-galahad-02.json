@@ -1,0 +1,11 @@
+{
+  "id": "scene-free-galahad-02",
+  "kind": "scene",
+  "chapterId": "chapter-free-galahad-01",
+  "documentId": "document-free-galahad-01",
+  "sequence": 2,
+  "startParagraphId": "p057",
+  "endParagraphId": "p119",
+  "segmentation": "explicit_ellipsis_and_dots_separator",
+  "sourceRef": {"documentId": "document-free-galahad-01", "paragraphId": "p057"}
+}

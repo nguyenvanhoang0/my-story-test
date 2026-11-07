@@ -1,0 +1,8 @@
+{
+  "id": "entity-unnamed-young-hunter",
+  "kind": "character",
+  "referenceLabel": "Cậu trai kể chuyện ngoài lều của Galahad",
+  "description": "Con trai độc nhất của một thợ săn nổi tiếng can trường trong bộ lạc; chưa xưng tên",
+  "nameStatus": "not_provided",
+  "sourceRef": {"documentId": "document-free-galahad-01", "paragraphId": "p045"}
+}

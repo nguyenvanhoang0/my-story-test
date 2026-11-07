@@ -1,0 +1,7 @@
+{
+  "id": "entity-galahad",
+  "kind": "character",
+  "name": "Galahad",
+  "appearance": "Mái tóc bạch kim",
+  "sourceRef": {"documentId": "document-free-galahad-01", "paragraphId": "p002"}
+}

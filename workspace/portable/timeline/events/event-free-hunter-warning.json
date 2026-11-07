@@ -1,0 +1,10 @@
+{
+  "id": "event-free-hunter-warning",
+  "kind": "world_event",
+  "storyId": "story-benny",
+  "chapterId": "chapter-free-galahad-01",
+  "sceneId": "scene-free-galahad-03",
+  "title": "Thợ săn cưỡi ngựa về làng hô Trời nuốt cỏ",
+  "participantIds": ["entity-unnamed-warning-hunter"],
+  "sourceRef": {"documentId": "document-free-galahad-01", "paragraphId": "p135"}
+}

@@ -1,0 +1,8 @@
+{
+  "id": "entity-unnamed-warning-hunter",
+  "kind": "character",
+  "referenceLabel": "Gã thợ săn cưỡi ngựa về làng báo động",
+  "nameStatus": "not_provided",
+  "identityRelationToYoungHunter": "not_established",
+  "sourceRef": {"documentId": "document-free-galahad-01", "paragraphId": "p135"}
+}

@@ -1,0 +1,12 @@
+{
+  "id": "event-free-galahad-prunes-vine",
+  "kind": "world_event",
+  "storyId": "story-benny",
+  "chapterId": "chapter-free-galahad-01",
+  "sceneId": "scene-free-galahad-02",
+  "title": "Galahad tỉa cành cây trên sừng Mercy và trang trí vỏ sò, dải lụa",
+  "locationId": "place-tribal-shrine",
+  "participantIds": ["entity-galahad", "entity-mercy"],
+  "subjectId": "entity-benny",
+  "sourceRef": {"documentId": "document-free-galahad-01", "paragraphId": "p077"}
+}

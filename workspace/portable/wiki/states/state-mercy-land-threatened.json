@@ -1,0 +1,9 @@
+{
+  "id": "state-mercy-land-threatened",
+  "kind": "wiki_state_change",
+  "entityId": "entity-mercy",
+  "attribute": "promisedLandThreat",
+  "value": "Vùng đất hứa bị xâm phạm; cây cỏ bị đàn cào cào ăn",
+  "eventId": "event-free-locust-invasion",
+  "sourceRef": {"documentId": "document-free-galahad-01", "paragraphId": "p125"}
+}
